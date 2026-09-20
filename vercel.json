@@ -1,6 +1,14 @@
 {
   "outputDirectory": "dist",
   "cleanUrls": true,
+  "functions": {
+    "index.js": {
+      "includeFiles": "dist/**"
+    },
+    "server.js": {
+      "includeFiles": "dist/**"
+    }
+  },
   "rewrites": [
     {
       "source": "/((?!assets/|media/|favicons/|.*\\..*).*)",
