@@ -1,0 +1,13 @@
+{
+  "name": "wed002-wedding-invitation",
+  "version": "1.0.0",
+  "description": "Recreated Home Page of Invitation Nation WED002 template",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["wedding", "invitation", "animation", "vite", "react"],
+  "author": "",
+  "license": "ISC"
+}
