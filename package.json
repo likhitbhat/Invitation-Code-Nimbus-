@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Recreated Home Page of Invitation Nation WED002 template",
   "scripts": {
-    "build": "",
+    "build": "node copy-dist.js",
     "start": "node local-server.js",
     "dev": "node local-server.js"
   }
